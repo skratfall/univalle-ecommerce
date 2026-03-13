@@ -19,6 +19,8 @@
     "start:catalogo": "npm run start:dev --workspace=apps/catalogo-microservice",
     "start:pagos": "npm run start:dev --workspace=apps/pagos-microservice",
     "start:usuarios": "npm run start:dev --workspace=apps/usuarios-microservice",
+    "start:frontend": "npm run dev --workspace=apps/web-frontend",
+    "build:frontend": "npm run build --workspace=apps/web-frontend",
     "lint": "eslint \"apps/**/*.ts\" --fix",
     "test": "npm run test --workspaces",
     "test:api-gateway": "npm run test --workspace=apps/api-gateway",
